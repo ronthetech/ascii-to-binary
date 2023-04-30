@@ -1,0 +1,40 @@
+html {
+  /* 10px */
+  font-size: 62.5%
+}
+body {
+  /* 16px */
+  font-size: 1.6rem;
+}
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  color: #00539f;
+  margin: 0;
+  padding: 2rem 0;;
+}
+section {
+  background-color: #222222;
+  width: 600px;
+  margin: 0 auto;
+}
+table {
+  text-align: center;
+  padding: 1rem 1rem;
+  margin: 0 auto;
+}
+tr > th {
+  color: red;
+  font-size: 2.25rem;
+  padding: 0 1rem;
+}
+tr > td {
+  color: #eee;
+  font-size: 2rem;
+  transition: all 0.4s;
+}
+tr > td:hover {
+  color: #e1e;
+  font-size: 2rem;
+  cursor: pointer;
+}
